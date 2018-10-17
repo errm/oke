@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["edward-robinson@cookpad.com"]
 
   spec.summary       = %q{Ruby in Containers}
-  spec.description   = %q{Oke is a tool to make it simple to build and deploy applications written in Ruby}
+  spec.description   = %q{Oke is a tool to make it simple to build and deploy applications written in Ruby, it is currently a prototype so doesn't really do most of what it may claim to do}
   spec.homepage      = "https://github.com/errm/oke"
   spec.license       = "Apache-2.0"
 

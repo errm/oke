@@ -2,6 +2,10 @@
 
 Oke is a tool to help you put your Ruby Application into a container, and then to deploy it to a Kubernetes Cluster.
 
+![Loading Barrels](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Stevedores_on_a_New_York_Dock_Loading_Barrels_of_Corn_Syrup_onto_a_Barge_on_the_Hudson_River%2C_ca._1912_-_NARA_-_518287.jpg/607px-Stevedores_on_a_New_York_Dock_Loading_Barrels_of_Corn_Syrup_onto_a_Barge_on_the_Hudson_River%2C_ca._1912_-_NARA_-_518287.jpg)
+
+_Oke is currently a protoype, and does nothing of any use, I am using it to test ideas I have for the UX of this sort of tool, it may or may not ever become a real thing_
+
 ## Fun Fact
 
 桶 (Oke) is a Japanese word that describes a tub, barrel or container.
