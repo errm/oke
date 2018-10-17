@@ -22,9 +22,9 @@ Or install it yourself as:
 
     $ gem install oke
 
-## Usage
+To get started with oke, you can run in order to create the config files that the tool uses.
 
-TODO: Write usage instructions here
+    $ oke init
 
 ## Development
 
