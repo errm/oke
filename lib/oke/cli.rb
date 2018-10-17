@@ -42,6 +42,26 @@ module Oke
         #   wokers 2
         # end
       HEREDOC
+
+      create "config/oke/variables.rb", <<~HEREDOC
+        # This file contains information about all the environment variables that the application consumes
+
+        env "RAILS_ENV" do
+          doc "Chooses the which config to load from config/environment"
+          default "production"
+        end
+
+        env "DATBASE_URL" do
+          doc "URL used to connect to the application database"
+          required
+          secret
+        end
+
+        env "SECRET_KEY_BASE" do
+          generate
+          secret
+        end
+      HEREDOC
     end
 
     no_commands do

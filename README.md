@@ -22,13 +22,16 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+To get started with oke, you can run `oke init` to setup the config files that the tool uses.
 
-    $ gem install oke
+```
+$ bundle exec oke init
+Detected Rails Application 🛤️
 
-To get started with oke, you can run init to setup the config files that the tool uses.
-
-    $ bundle exec oke init
+Preparing config files 📝
+    create config/oke/processes.rb
+    create config/oke/variables.rb
+```
 
 ## Development
 
